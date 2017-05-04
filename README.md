@@ -1,9 +1,27 @@
 # Rest-API-CRUD
-Mongoose Restaurant
+####Mongoose Restaurant
+
+##Summary
+REST API CRUD sederhana dengan menggunakan framework Express JS dan juga database MongoDB.
 
 
-REST API CRUD sederhana dengan menggunakan framework Express JS dan struktur kode kamu, dan juga database MongoDB.
+####Model Food
+```
+Collection yang akan kita buat yaitu collection
+foods yang memiliki field adalah =
+name: type String,
+price: type Number,
+expired_date: type Date.
+```
 
-Adapun collection yang perlu kalian buat yaitu collection foods yang memiliki field name, price, expired_date.
+####Model Restaurant
+```
+Collection restaurants yang memiliki field =
+name: type String,
+owner: type String,
+address: type String,
+open_status: type Boolean.
 
-Serta collection restaurants yang memiliki field name, owner, address, serta open_status yang menunjukkan status dari restaurant sedang buka atau tidak.
+untuk menunjukkan status dari restaurant sedang
+buka atau tidak.
+```
